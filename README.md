@@ -1,15 +1,15 @@
-# Blackmatter-Ransomware
-Related IOC, Mitigation steps, and reference links
+# BLACKMATTER RANSOMWARE
+RELATED IOCs MITIGATION STEPS AND REFERENCE LINKS
 
 Common Vulnerabilities and Exposures (CVE) : CVE-2021-21985, CVE-2021-37973 
 
-IOCs(Indicators of compromise)
+IOCs (Indicators of compromise)
 
 PAYLOADS: 
 6a7b7147fea63d77368c73cef205eb75d16ef209a246b05698358a28fd16e502 
 d4645d2c29505cf10d1b201826c777b62cbf9d752cb1008bef1192e0dd545a82 
 
-SHA256 Hashes :
+SHA256 HASHES :
 072158f5588440e6c94cb419ae06a27cf584afe3b0cb09c28eff0b4662c15486 
 20742987e6f743814b25e214f8b2cd43111e2f60a8856a6cca87cafd85422f41 
 22d7d67c3af10b1a37f277ebabe2d1eb4fd25afbd6437d4377400e148bcc08d6 
@@ -31,13 +31,13 @@ f32604fba766c946b429cf7e152273794ebba9935999986b7e137ca46cd165fc
   
 MITIGATION
 —	Disable the storage of clear text passwords in LSASS memory.
-—	Consider disabling or limiting New Technology Local Area Network Manager (NTLM) and WDigest Authentication.
+—	Consider disabling or limiting New Technology Local Area Network Manager (NTLM) and Widget Authentication.
 —	Implement Credential Guard for Windows 10 and Server 2016.
 —	Disable command-line and scripting activities and permissions. Privilege escalation and lateral movement often depend on software utilities that run from the command line.
 —	Implement and enforce backup and restoration policies and procedures. Doing backups right is not as easy as some may think. Make sure they are recent, cannot be altered or deleted, and cover the entire organization’s data infrastructure.
 —	Minimize the Active Directory (AD) attack surface to reduce malicious ticket-granting activity. Ticket Granting services can be used to obtain hashed credentials that attackers attempt to crack or use in pass-the-hash methods.
 
-Reference link
+REFERANCE LINK
 
 1	https://www.mandiant.com/resources/cryptography-blackmatter-ransomware
 
@@ -57,4 +57,4 @@ Reference link
 
 9	https://www.mandiant.com/resources/cryptography-blackmatter-ransomware 
 
-10	https://www.securitymagazine.com/articles/95744-blackmatter-and-haron-ransomware-groups-emerge-after-darkside-and-revil-disappear 
+10	https://www.securitymagazine.com/articles/95744-blackmatter-and-haron-ransomware-groups-emerge-after-darkside-and-revil-disappear
