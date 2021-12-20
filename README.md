@@ -1,9 +1,10 @@
 # BLACKMATTER RANSOMWARE
-RELATED IOCs, MITIGATION STEPS AND REFERENCE LINKS
+**RELATED IOCs, MITIGATION STEPS AND REFERENCE LINKS**
 
-Common Vulnerabilities and Exposures (CVE) : CVE-2021-21985, CVE-2021-37973 
+**Common Vulnerabilities and Exposures (CVE)** 
+CVE-2021-21985, CVE-2021-37973 
 
-IOCs (Indicators of compromise)
+**IOCs (Indicators of compromise)**
 
 PAYLOADS: 
 6a7b7147fea63d77368c73cef205eb75d16ef209a246b05698358a28fd16e502 
@@ -29,7 +30,7 @@ eaac447d6ae733210a07b1f79e97eda017a442e721d8fafe618e2c789b18234b
 eafce6e79a087b26475260afe43f337e7168056616b3e073832891bf18c299c1 
 f32604fba766c946b429cf7e152273794ebba9935999986b7e137ca46cd165fc 
   
-MITIGATION
+**MITIGATION**
 —	Disable the storage of clear text passwords in LSASS memory.
 —	Consider disabling or limiting New Technology Local Area Network Manager (NTLM) and Widget Authentication.
 —	Implement Credential Guard for Windows 10 and Server 2016.
@@ -37,7 +38,7 @@ MITIGATION
 —	Implement and enforce backup and restoration policies and procedures. Doing backups right is not as easy as some may think. Make sure they are recent, cannot be altered or deleted, and cover the entire organization’s data infrastructure.
 —	Minimize the Active Directory (AD) attack surface to reduce malicious ticket-granting activity. Ticket Granting services can be used to obtain hashed credentials that attackers attempt to crack or use in pass-the-hash methods.
 
-REFERANCE LINK
+**REFERENCE LINK**
 
 1	https://www.mandiant.com/resources/cryptography-blackmatter-ransomware
 
