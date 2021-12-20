@@ -38,7 +38,7 @@ f32604fba766c946b429cf7e152273794ebba9935999986b7e137ca46cd165fc
 —	Implement and enforce backup and restoration policies and procedures. Doing backups right is not as easy as some may think. Make sure they are recent, cannot be altered or deleted, and cover the entire organization’s data infrastructure.
 —	Minimize the Active Directory (AD) attack surface to reduce malicious ticket-granting activity. Ticket Granting services can be used to obtain hashed credentials that attackers attempt to crack or use in pass-the-hash methods.
 
-**REFERENCE LINK**
+**Reference Link**
 
 1	https://www.mandiant.com/resources/cryptography-blackmatter-ransomware
 
